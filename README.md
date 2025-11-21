@@ -186,11 +186,11 @@ flutter run
 ### Visualizations
 
 *Correlation Heatmap*
-![Heatmap]( <img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/48186952-3450-45a5-8675-bf897a4fcb6c" />
+![Heatmap]( <img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/48186952-3450-45a5-8675-bf897a4fcb6c"/>
 )
 
 *Actual vs Predicted Values*
-![Scatter Plot](<img width="550" height="547" alt="actual vs predicted" src="https://github.com/user-attachments/assets/37cc1a24-276d-4e01-b871-0b5161ad5a3d" />
+![Scatter Plot] (<img width="550" height="547" alt="actual vs predicted" src="https://github.com/user-attachments/assets/37cc1a24-276d-4e01-b871-0b5161ad5a3d"/>
 )
 
 *Training Loss Curve*
@@ -204,9 +204,8 @@ flutter run
 
 | Home Screen | Prediction Result |
 |------------|-------------------|
-| ![Home]<img width="1080" height="2400" alt="Screenshot_1763750535" src="https://github.com/user-attachments/assets/1bf0eaef-c345-4437-b8f0-dbcb12bfc709" <img width="1080" height="2400" alt="Screenshot_1763750559" src="https://github.com/user-attachments/assets/9c4dff66-e2bf-4697-9fa0-acafa26e9e46" />
-/>
-() | ![Result]() |
+| ![Home](<img width="1080" height="2400" alt="Screenshot_1763750535" src="https://github.com/user-attachments/assets/1bf0eaef-c345-4437-b8f0-dbcb12bfc709" />)
+ | ![Result](<img width="1080" height="2400" alt="Screenshot_1763750559" src="https://github.com/user-attachments/assets/9c4dff66-e2bf-4697-9fa0-acafa26e9e46" />) | 
 
 ### Features
 - ✅ Input validation with real-time feedback
