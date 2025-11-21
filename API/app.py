@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from typing import Optional, Literal
+from fastapi.middleware.cors import CORSMiddleware
 
 # For creating a reference model to avoid errors
 from pydantic import BaseModel, Field
@@ -12,8 +13,6 @@ import pandas as pd
 import numpy as npgit 
 
 
-# Add Middle where
-
 app = FastAPI(title="Crop Yield Prediction API")
 
 # Load model, scaler, columns, category maps
@@ -22,6 +21,19 @@ scaler = joblib.load('scaler.pkl')
 ui_columns = joblib.load('UI_columns.pkl')
 model_columns = joblib.load('model_columns.pkl')
 model_dtypes = joblib.load('model_dtypes.pkl')
+
+
+# Add Middle where
+
+origins = ["*"]  # Allow all origins for testing
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 categorical_cols = ['region', 'crop_type', 'irrigation_type', 'fertilizer_type', 'crop_disease_status']
