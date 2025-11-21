@@ -13,6 +13,16 @@ import pandas as pd
 import numpy as np
 
 
+app = FastAPI(title="Crop Yield Prediction API")
+
+# Load model, scaler, columns, category maps
+model = joblib.load('best_model.pkl')
+scaler = joblib.load('scaler.pkl')
+ui_columns = joblib.load('UI_columns.pkl')
+model_columns = joblib.load('model_columns.pkl')
+model_dtypes = joblib.load('model_dtypes.pkl')
+
+
 # Add Middle where
 
 origins = ["*"]  # Allow all origins for testing
@@ -24,15 +34,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-app = FastAPI(title="Crop Yield Prediction API")
-
-# Load model, scaler, columns, category maps
-model = joblib.load('best_model.pkl')
-scaler = joblib.load('scaler.pkl')
-ui_columns = joblib.load('UI_columns.pkl')
-model_columns = joblib.load('model_columns.pkl')
-model_dtypes = joblib.load('model_dtypes.pkl')
 
 
 categorical_cols = ['region', 'crop_type', 'irrigation_type', 'fertilizer_type', 'crop_disease_status']
