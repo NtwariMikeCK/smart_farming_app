@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from typing import Optional, Literal
+from fastapi.middleware.cors import CORSMiddleware
 
 # For creating a reference model to avoid errors
 from pydantic import BaseModel, Field
@@ -13,6 +14,16 @@ import numpy as np
 
 
 # Add Middle where
+
+origins = ["*"]  # Allow all origins for testing
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app = FastAPI(title="Crop Yield Prediction API")
 
