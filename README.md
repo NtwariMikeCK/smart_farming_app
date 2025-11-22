@@ -183,12 +183,19 @@ flutter run
 ![Heatmap](<img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/2ff58403-5297-472e-8cc4-bf61f3a42833" />
 )
 
+<img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/2068b6dd-33d6-47bb-9843-9d9554e7536b" />
+
+
 *Training Loss Curve*
 ![Loss Curve](docs/images/loss_curve.png)
+
+<img width="550" height="547" alt="actual vs predicted" src="https://github.com/user-attachments/assets/0c36d11d-8252-4c27-9fab-c2712c8021e9" />
 
 *Training Loss Curve*
 ![Loss Curve](<img width="989" height="590" alt="training loss curve" src="https://github.com/user-attachments/assets/615bdd9d-fced-4aa7-b194-3455f5d09fa1" />
 )
+
+<img width="989" height="590" alt="training loss curve" src="https://github.com/user-attachments/assets/3893891a-8395-4a3f-a3a1-819574e78b9d" />
 
 ---
 
