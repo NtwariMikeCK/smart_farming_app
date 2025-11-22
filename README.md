@@ -17,11 +17,26 @@ Traditional farming methods often rely on intuition and experience, which can le
 
 ---
 
+## Links
+
+## 🎥 Demo Video
+
+📺 **Watch Full Demo:** [Youtube_Link](https://youtu.be/DVCbxtO0bIA)
+
+
+**Video Contents:**
+- ✅ Model training and performance analysis
+- ✅ API prediction demonstration (Swagger UI)
+- ✅ Mobile app functionality walkthrough
+- ✅ End-to-end system integration
+
+
 ## 📊 Dataset
 
-**Source:** [Dataset Link Placeholder]
+**Source:** [Dataset Link](https://www.kaggle.com/datasets/atharvasoundankar/smart-farming-sensor-data-for-yield-prediction/data)
 
-The dataset contains environmental and soil sensor readings from smart farming systems:
+This dataset simulates real-world smart farming operations powered by IoT sensors and satellite data. It captures environmental and operational variables that affect crop yield across 500 farms located in regions like India, the USA, and Africa.
+
 
 | Feature | Description | Unit |
 |---------|-------------|------|
@@ -31,11 +46,6 @@ The dataset contains environmental and soil sensor readings from smart farming s
 | `light_intensity` | Solar radiation levels | Lux |
 | `crop_yield` | Target variable - harvested amount | kg/hectare |
 | `ETC` | Others |
-
-**Dataset Statistics:**
-- Total Records: [Insert number]
-- Features: [Insert number]
-- Target Variable: Continuous (Regression)
 
 ---
 
@@ -78,7 +88,7 @@ The dataset contains environmental and soil sensor readings from smart farming s
 
 ### DevOps
 - **Git & GitHub** - Version control
-- **Jupyter Notebook** - Exploratory analysis
+- **Google Collab** - Exploratory analysis
 
 ---
 
@@ -175,24 +185,23 @@ flutter run
 2. **Decision Tree Regressor**
 3. **Random Forest Regressor**
 
-### Best Model: [Model Name]
+### Best Model: [Random Forest]
 
-**Performance Metrics:**
-- **MAE (Mean Absolute Error):** [Value]
-- **MSE (Mean Squared Error):** [Value]
-- **RMSE (Root Mean Squared Error):** [Value]
-- **R² Score:** [Value]
 
 ### Visualizations
 
 *Correlation Heatmap*
-![Heatmap](docs/images/heatmap.png)
 
-*Actual vs Predicted Values*
-![Scatter Plot](docs/images/scatter.png)
+<img width="550" height="547" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/2068b6dd-33d6-47bb-9843-9d9554e7536b" />
+
+
+*Actual Vs Predicted*
+
+<img width="550" height="547" alt="actual vs predicted" src="https://github.com/user-attachments/assets/0c36d11d-8252-4c27-9fab-c2712c8021e9" />
 
 *Training Loss Curve*
-![Loss Curve](docs/images/loss_curve.png)
+
+<img width="550" height="547" alt="training loss curve" src="https://github.com/user-attachments/assets/3893891a-8395-4a3f-a3a1-819574e78b9d" />
 
 ---
 
@@ -202,27 +211,15 @@ flutter run
 
 | Home Screen | Prediction Result |
 |------------|-------------------|
-| ![Home](docs/images/app_home.png) | ![Result](docs/images/app_result.png) |
+| <img width="550" height="547" alt="Screenshot_1763750535" src="https://github.com/user-attachments/assets/1bf0eaef-c345-4437-b8f0-dbcb12bfc709" />
+
+ | <img width="550" height="547" alt="Screenshot_1763750559" src="https://github.com/user-attachments/assets/9c4dff66-e2bf-4697-9fa0-acafa26e9e46" /> | 
 
 ### Features
 - ✅ Input validation with real-time feedback
 - ✅ Loading indicators during API calls
 - ✅ Error handling with user-friendly messages
 - ✅ Clean and intuitive UI design
-
----
-
-## 🎥 Demo Video
-
-📺 **Watch Full Demo:** [YouTube Link]
-
-**Video Contents:**
-- ✅ Model training and performance analysis
-- ✅ API prediction demonstration (Swagger UI)
-- ✅ Mobile app functionality walkthrough
-- ✅ End-to-end system integration
-
-**Duration:** 5 minutes
 
 ---
 
@@ -267,8 +264,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 👤 Author
 
-**[Your Name]**
-- 🎓 Student ID: [Your ID]
+**[Ntwari Mike Chris Kevin]**
 - 📧 Email: k.ntwari@alustudent.com
 - 🐙 GitHub: [@yourusername](https://github.com/NtwariMikeCK)
 
