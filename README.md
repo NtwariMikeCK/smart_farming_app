@@ -17,6 +17,10 @@ Traditional farming methods often rely on intuition and experience, which can le
 
 ---
 
+## Links
+
+Youtube video: [Link](https://youtu.be/DVCbxtO0bIA)
+
 ## 📊 Dataset
 
 **Source:** [Dataset Link Placeholder]
