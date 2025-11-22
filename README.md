@@ -25,7 +25,8 @@ Youtube video: [Link](https://youtu.be/DVCbxtO0bIA)
 
 **Source:** [Dataset Link](https://www.kaggle.com/datasets/atharvasoundankar/smart-farming-sensor-data-for-yield-prediction/data)
 
-The dataset contains environmental and soil sensor readings from smart farming systems:
+This dataset simulates real-world smart farming operations powered by IoT sensors and satellite data. It captures environmental and operational variables that affect crop yield across 500 farms located in regions like India, the USA, and Africa.
+
 
 | Feature | Description | Unit |
 |---------|-------------|------|
