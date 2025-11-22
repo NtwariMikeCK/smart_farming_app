@@ -180,15 +180,15 @@ flutter run
 ### Visualizations
 
 *Correlation Heatmap*
-![Heatmap]( <img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/48186952-3450-45a5-8675-bf897a4fcb6c"/>
-)
-
-*Actual vs Predicted Values*
-![Scatter Plot] (<img width="550" height="547" alt="actual vs predicted" src="https://github.com/user-attachments/assets/37cc1a24-276d-4e01-b871-0b5161ad5a3d"/>
+![Heatmap](<img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/2ff58403-5297-472e-8cc4-bf61f3a42833" />
 )
 
 *Training Loss Curve*
 ![Loss Curve](docs/images/loss_curve.png)
+
+*Training Loss Curve*
+![Loss Curve](<img width="989" height="590" alt="training loss curve" src="https://github.com/user-attachments/assets/615bdd9d-fced-4aa7-b194-3455f5d09fa1" />
+)
 
 ---
 
