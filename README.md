@@ -23,7 +23,7 @@ Youtube video: [Link](https://youtu.be/DVCbxtO0bIA)
 
 ## 📊 Dataset
 
-**Source:** [Dataset Link Placeholder]
+**Source:** [Dataset Link](https://www.kaggle.com/datasets/atharvasoundankar/smart-farming-sensor-data-for-yield-prediction/data)
 
 The dataset contains environmental and soil sensor readings from smart farming systems:
 
@@ -35,11 +35,6 @@ The dataset contains environmental and soil sensor readings from smart farming s
 | `light_intensity` | Solar radiation levels | Lux |
 | `crop_yield` | Target variable - harvested amount | kg/hectare |
 | `ETC` | Others |
-
-**Dataset Statistics:**
-- Total Records: [Insert number]
-- Features: [Insert number]
-- Target Variable: Continuous (Regression)
 
 ---
 
@@ -82,7 +77,7 @@ The dataset contains environmental and soil sensor readings from smart farming s
 
 ### DevOps
 - **Git & GitHub** - Version control
-- **Jupyter Notebook** - Exploratory analysis
+- **Google Collab** - Exploratory analysis
 
 ---
 
@@ -179,18 +174,13 @@ flutter run
 2. **Decision Tree Regressor**
 3. **Random Forest Regressor**
 
-### Best Model: [Model Name]
+### Best Model: [Random Forest]
 
-**Performance Metrics:**
-- **MAE (Mean Absolute Error):** [Value]
-- **MSE (Mean Squared Error):** [Value]
-- **RMSE (Root Mean Squared Error):** [Value]
-- **R² Score:** [Value]
 
 ### Visualizations
 
 *Correlation Heatmap*
-![Heatmap]( <img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/48186952-3450-45a5-8675-bf897a4fcb6c"/>
+[Heatmap]( <img width="1037" height="969" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/48186952-3450-45a5-8675-bf897a4fcb6c"/>
 )
 
 *Actual vs Predicted Values*
