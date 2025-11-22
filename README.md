@@ -267,8 +267,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 👤 Author
 
-**[Your Name]**
-- 🎓 Student ID: [Your ID]
+**[Ntwari Mike Chris Kevin]**
 - 📧 Email: k.ntwari@alustudent.com
 - 🐙 GitHub: [@yourusername](https://github.com/NtwariMikeCK)
 
