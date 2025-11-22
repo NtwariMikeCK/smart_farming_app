@@ -19,7 +19,17 @@ Traditional farming methods often rely on intuition and experience, which can le
 
 ## Links
 
-Youtube video: [Link](https://youtu.be/DVCbxtO0bIA)
+## 🎥 Demo Video
+
+📺 **Watch Full Demo:** [Youtube_Link](https://youtu.be/DVCbxtO0bIA)
+
+
+**Video Contents:**
+- ✅ Model training and performance analysis
+- ✅ API prediction demonstration (Swagger UI)
+- ✅ Mobile app functionality walkthrough
+- ✅ End-to-end system integration
+
 
 ## 📊 Dataset
 
@@ -210,20 +220,6 @@ flutter run
 - ✅ Loading indicators during API calls
 - ✅ Error handling with user-friendly messages
 - ✅ Clean and intuitive UI design
-
----
-
-## 🎥 Demo Video
-
-📺 **Watch Full Demo:** [YouTube Link]
-
-**Video Contents:**
-- ✅ Model training and performance analysis
-- ✅ API prediction demonstration (Swagger UI)
-- ✅ Mobile app functionality walkthrough
-- ✅ End-to-end system integration
-
-**Duration:** 5 minutes
 
 ---
 
