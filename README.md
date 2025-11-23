@@ -130,12 +130,15 @@ cd smart-farming-app
 
 ### 2️⃣ Set Up Python Environment
 ```bash
+# cd into API folder
+cd Api/
+
 # Create virtual environment
-python -m venv venv
+python -m venv lr_env
 
 # Activate virtual environment
 # On Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 
@@ -145,7 +148,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Set Up Flutter App
 ```bash
-cd flutter_app
+cd FlutterApp
 flutter pub get
 ```
 
@@ -153,19 +156,11 @@ flutter pub get
 
 ## 🚀 Usage
 
-### Train the Model
-```bash
-# Open Jupyter Notebook
-jupyter notebook
-
-# Navigate to notebooks/analysis.ipynb
-# Run all cells to train and save the model
-```
-
 ### Run the API Server
 ```bash
-cd api
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+# In the API folder
+Note: You do not need to run backend as it is already deployed on Render hence
+      the app uses a production URL
 ```
 
 Access Swagger UI: `http://localhost:8000/docs`
