@@ -163,7 +163,7 @@ Note: You do not need to run backend as it is already deployed on Render hence
       the app uses a production URL
 ```
 
-Access Swagger UI: `http://localhost:8000/docs`
+Access Swagger UI: `https://smart-farming-app-vlny.onrender.com/docs`
 
 ### Run the Mobile App
 ```bash
